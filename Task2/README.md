@@ -5,3 +5,10 @@ It takes the number of subjects and their respective marks as input, calculates:
 *Average Marks
 *Grade (A, B, C, D, F)
 *A personalized compliment/feedback message based on the grade
+#To Compile 
+javac Gradecalculator.java
+#To Run
+java Gradecalculator
+
+
+
