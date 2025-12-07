@@ -44,3 +44,5 @@ javac Gradecalculator.java
 Run using:
 
 java Gradecalculator
+#Sample Output
+<img width="1619" height="299" alt="Screenshot 2025-12-07 160434" src="https://github.com/user-attachments/assets/a7a9c67c-1f1a-4463-a709-b9a28a423340" />
