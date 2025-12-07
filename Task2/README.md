@@ -12,7 +12,7 @@ A motivational feedback message based on the grade
 
 It is a simple and beginner-friendly program using loops, conditional statements, and basic input handling.
 
-Features
+##Features
 
 Accepts any number of subjects
 
@@ -36,12 +36,10 @@ Below 60	F	Don’t worry, every setback is a chance to rise. Keep trying!
 Save the file as Gradecalculator.java
 
 Open terminal/command prompt
-
-Compile using:
+##Compile using:
 
 javac Gradecalculator.java
 
-
-Run using:
+##Run using:
 
 java Gradecalculator
