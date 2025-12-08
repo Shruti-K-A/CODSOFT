@@ -6,23 +6,24 @@ All data is stored in a text file so your records stay saved even after closing 
 
 🚀 Features
 
-Add new students
+*Add new students
 
-Remove students
+*Remove students
 
-Edit student details
+*Edit student details
 
-Search by roll number
+*Search by roll number
 
-Display all students
+*Display all students
 
-Saves & loads data from students.txt
+*Saves & loads data from students.txt
 
-Clean & short code
+*Clean & short code
 
-Handles invalid number input
+*Handles invalid number input
 
 📂 Files
+
 StudentManagementSystem.java   // main program (single file)
 students.txt                   // auto-created to store student data
 
