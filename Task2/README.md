@@ -31,19 +31,19 @@ Average Marks	Grade	Feedback
 60 – 69	D	You made it through! Keep practising and you will improve.
 Below 60	F	Don’t worry, every setback is a chance to rise. Keep trying!
 
-▶️ How to Run the Program
+ ## How to Run the Program
 
 Save the file as Gradecalculator.java
 
 Open terminal/command prompt
 
-Compile using:
+## Compile using:
 
 javac Gradecalculator.java
 
-Run using:
+## Run using:
 
 java Gradecalculator
 
-Sample Output
+## Sample Output
 <img width="1619" height="299" alt="Screenshot 2025-12-07 160434" src="https://github.com/user-attachments/assets/a7a9c67c-1f1a-4463-a709-b9a28a423340" />
