@@ -70,3 +70,6 @@ java ATMApplication
 
 
 Enjoy your mini ATM! 
+Output
+
+<img width="1577" height="786" alt="Screenshot 2025-12-08 133304" src="https://github.com/user-attachments/assets/b3982e46-6f7b-4db9-99d1-dffd3f386ab8" />
