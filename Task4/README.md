@@ -1,9 +1,9 @@
-Currency Converter (Java + API)
+## Currency Converter (Java + API)
 
 A simple beginner-friendly currency converter program written in Java.
 This program allows users to convert money between USD, INR, and EUR using real-time exchange rates fetched from an online API.
 
-📌 Features
+## Features
 
 ✔ Menu-based program (easy for beginners)
 ✔ Converts between:
@@ -21,7 +21,7 @@ INR → EUR
 ✔ No external libraries required
 ✔ Internet connection required for API call
 
-🛠️ How It Works
+## How It Works
 
 User selects a conversion option from the menu
 
@@ -40,7 +40,7 @@ Example API response:
 
 {"amount":10,"base":"USD","date":"2025-01-01","rates":{"INR":830.20}}
 
-📂 Code Explanation (Simple Overview)
+## Code Explanation 
 ✔ Scanner
 
 Used to get user input (choice, amount).
@@ -65,7 +65,7 @@ Returns the value
 
 This keeps the main program clean and easy to understand.
 
-🚀 How to Run the Program
+## How to Run the Program
 
 Install Java JDK (if not installed)
 
@@ -76,16 +76,16 @@ currency_converter.java
 
 Open Terminal / CMD in the file location
 
-Compile the program:
+## Compile the program:
 
 javac currency_converter.java
 
 
-Run the program:
+## Run the program:
 
 java currency_converter
 
-Output 
+## Output 
 
 <img width="1594" height="680" alt="Screenshot 2025-12-08 132507" src="https://github.com/user-attachments/assets/fccde4d9-4447-4db6-ab93-54904dfb342c" />
 
