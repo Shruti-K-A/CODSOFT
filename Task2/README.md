@@ -1,4 +1,4 @@
-📘 Grade Calculator – Java Program
+## 📘 Grade Calculator – Java Program
 
 This Java program allows the user to enter marks for multiple subjects and calculates:
 
