@@ -1,10 +1,10 @@
-Student Management System (Java)
+## Student Management System (Java)
 
 A simple, console-based Student Management System written in Java.
 This program lets you add, remove, edit, search, and display student records.
 All data is stored in a text file so your records stay saved even after closing the program.
 
-Features
+## Features
 
 *Add new students
 
@@ -22,25 +22,25 @@ Features
 
 *Handles invalid number input
 
-📂 Files
+## Files
 
 StudentManagementSystem.java   // main program (single file)
 students.txt                   // auto-created to store student data
 
-▶️ Running the Program
+## Running the Program
 
 Save the code as StudentManagementSystem.java
 
-Compile the file:
+## Compile the file:
 
 javac StudentManagementSystem.java
 
 
-Run the program:
+## Run the program:
 
 java StudentManagementSystem
 
-Menu Options
+## Menu Options
 1. Add Student
 2. Remove Student
 3. Edit Student
@@ -48,7 +48,7 @@ Menu Options
 5. Display All Students
 6. Exit
 
- How It Works
+## How It Works
 
 Student details are stored in a simple inner Student class
 
@@ -59,6 +59,6 @@ Data is saved to a text file using basic file I/O
 
 The program uses a short and clean menu system for easy use
 
-Output
+## Output
 <img width="967" height="819" alt="Screenshot 2025-12-08 220444" src="https://github.com/user-attachments/assets/1c2e3546-7cc6-4f5a-a49a-2c23b3b23945" />
 
