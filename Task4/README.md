@@ -1,89 +1,71 @@
 ## Currency Converter (Java + API)
 
-A simple beginner-friendly currency converter program written in Java.
-This program allows users to convert money between USD, INR, and EUR using real-time exchange rates fetched from an online API.
+This is a small Java project I made to understand how APIs work.
+The program basically converts money between USD, INR, and EUR using live exchange rates from the Frankfurter API. Nothing complicated — just a simple console-based tool.
 
-## Features
+## What the Program Does
 
-✔ Menu-based program (easy for beginners)
-✔ Converts between:
+Shows a basic menu to choose the type of conversion
 
-USD → INR
+Supports USD ⇄ INR and EUR ⇄ INR
 
-INR → USD
+Fetches the latest currency rate from the internet
 
-EUR → INR
+Works using plain Java (no extra libraries)
 
-INR → EUR
+I mainly built it to practice user input, API calls, and basic Java logic.
 
-✔ Fetches live exchange rates using Frankfurter API
-✔ Simple and readable code
-✔ No external libraries required
-✔ Internet connection required for API call
+## How It Works (in simple words)
 
-## How It Works
+You choose the conversion option.
 
-User selects a conversion option from the menu
+You enter the amount you want to convert.
 
-User enters the amount
-
-Program sends a request to the API:
+The program sends a request to this API:
 
 https://api.frankfurter.app/latest?amount=VALUE&from=CURRENCY1&to=CURRENCY2
 
 
-API responds with real-time conversion value
+The API sends back the converted amount.
 
-Program displays the converted amount
+The program prints the final result.
 
-Example API response:
+That’s literally it — nothing fancy.
+
+## Example API Response
+
+This is what the API returns (just for understanding):
 
 {"amount":10,"base":"USD","date":"2025-01-01","rates":{"INR":830.20}}
 
-## Code Explanation 
-✔ Scanner
 
-Used to get user input (choice, amount).
+The program only picks the converted value from this.
 
-✔ if-else
+## What’s Inside the Code
 
-Used for choosing the correct conversion type.
+Scanner → to take user input
 
-✔ convertUsingAPI()
+If-else conditions → handle different conversion options
 
-This method:
+convertUsingAPI() method → sends the API request and reads the result
 
-Builds the API URL
+I kept the code as clean and simple as possible so it’s easy to follow.
 
-Connects to the API
+## How to Run It
 
-Reads the response
+Install Java (JDK).
 
-Extracts the converted amount
+Save the file as currency_converter.java.
 
-Returns the value
+Open Terminal/Command Prompt in that folder.
 
-This keeps the main program clean and easy to understand.
-
-## How to Run the Program
-
-Install Java JDK (if not installed)
-
-Save the file as:
-
-currency_converter.java
-
-
-Open Terminal / CMD in the file location
-
-## Compile the program:
+## Run:
 
 javac currency_converter.java
-
-
-## Run the program:
-
 java currency_converter
+
+
+The converter starts running in the console.
 
 ## Output 
 
